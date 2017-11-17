@@ -1,0 +1,433 @@
+.intro-txt span
+{
+	margin:1em;
+	color: #006064;
+	font-size: 2em;
+}
+.intro-txt #First:first-letter
+{
+	line-height: 2em;
+	font-size: 2em;
+	line-height: 0.5;
+	color:rgba(2,119,189,0.7);
+}
+.intro-txt p
+{
+	margin: 1em;
+	font-size: 1.4em;
+	text-align: justify;
+	
+}
+.intro-txt h2
+{
+	font-size: 4em;
+	font-weight: bold;
+	
+	margin:1em;
+	color:rgba(2,119,189,0.7);
+}
+.button-one
+{
+	border: 1px solid black !important;
+	padding: 10px 30px;
+	color: #101010;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-left: 1.4em;
+	margin-top: 2em;
+	
+	margin-bottom: 80px;
+}
+
+.button-one:hover
+{
+	background:linear-gradient(rgba(2,119,189,0.7),rgba(2,119,189,0.7));
+	color: white;
+	border: 1px solid transparent !important;
+	transition: all 0.3s ease-in;
+	text-decoration: none;
+}
+.quote-one {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 1.8em;
+	margin: 1em 0;
+	padding: 1em 40px;
+	margin-top: 6em;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+}
+
+.quote-one:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	color: #7a7a7a;
+}
+
+.quote-one cite {
+	color:rgba(2,119,189,0.7);
+	font-size: 1em;
+	display: block;
+	margin-top: 5px;
+}
+
+.quoteone cite:before {
+	content: "\2014 \2009";
+}
+
+.creations
+{
+	background-image: linear-gradient(rgba(2,119,189,0.7),rgba(2,119,189,0.7));
+	padding-top: 40px;
+	color: white;
+}
+.creations-text h3
+{
+	font-size: 3em;
+	font-weight: bold;
+	margin-top:1em;
+}
+.creations p
+{
+	margin:5px;
+	text-transform: none;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+.creations-detail-text
+{       
+	margin:10%;
+	text-transform: none;
+	padding: 1%;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, sans-serif; 
+	margin-top: 5%;
+	margin-right:0px;
+	text-align: justify;
+}
+
+.creations-logo
+{
+	font-size: 7em;
+	color: white;
+	margin: auto;
+}
+.creations-btn
+{
+	border: 1px solid white !important;
+	padding: 10px 30px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-left: 1.4em;
+	margin-bottom: 1em;
+}
+.creations-btn span
+{
+	margin: 10px; 
+}
+.creations-btn:hover
+{
+	background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+	color: white;
+	border:0px;
+	text-decoration: none;
+	transition: all 0.5s ease-in;
+}
+.our-work
+{
+	background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)), url('../img/ny.jpg');
+	color: white;
+}
+
+.our-work-photo
+{
+	width: 75%;
+	height: 75 auto;
+	overflow: hidden;
+	transform: scale(1.00);
+	transition: all 0.5s;
+	margin:10%;
+}
+.our-work-photo img
+{
+	margin: 15%;
+}
+.our-work-photo:hover
+{
+	transform: scale(1.05);
+}
+.our-work-text p
+{	
+	color: 424242;
+	margin: 1em;
+	font-size: 1.4em;
+	text-align: justify;
+	margin-bottom: 2em;
+}
+.our-work-text h2
+{
+	font-size: 4em;
+	color: 424242;
+	font-weight: bold;
+	
+	margin:1em;
+}
+.our-work-text{
+	margin-top: 0px;
+}
+
+
+
+.circle
+{
+	color: #81D4FA;
+	height: 80px;
+	width: 80px;
+	margin:auto;
+	border: 2px solid #81D4FA !important ;
+	border-radius: 50%;
+	font-size: 2em;
+	padding-top: 32px;
+	text-align: center;
+	margin-bottom: 0.2em;
+	margin-top: 1.5em;
+}
+
+.clear-fix
+{
+	zoom:1;
+	border: 2 px solid rgb(0,140,246) !important;
+	box-shadow: 2px rgb(0,140,246);
+}
+.clear-fix:after
+{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+.team
+{
+	padding-bottom: 1em;
+	text-align: justify;
+}
+.team img
+{
+
+	float: left;
+	margin: 1.1em;
+	margin-bottom: 2em;
+}
+.team img:hover
+{
+	transform: scale(1.10);
+	transition: all ease-in 0.5s;
+}
+
+.team h2
+{
+	font-size: 1em;
+	margin-top:auto;
+	color: black;
+	
+	font-weight: bold;
+}
+.team span
+{
+	font-size: 1em;
+	color: black;
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+.team span:hover
+{
+	transform: scale(1.5);
+	color: #757575;
+	transition: all ease-in 0.3s;
+}
+.services
+{
+	padding: 1em;
+	background-color: #F5F5F5;
+}
+.services a
+{
+	margin-top: 10px;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.services i
+{
+	font-size: 2em;
+}
+
+.services-list
+{
+	transform: translateX(-4.5%);
+}
+.services-list li
+{
+	list-style: none;
+	color: #757575;
+	text-align: center; padding: 0.5em;
+	padding-left: 0.8em;
+	border: 1px solid transparent ! important;
+	font-size: 1.1em;
+}
+.second-service li
+{
+	border-bottom: 1px solid #757575 !important;
+	border-top: 1px solid #757575 !important;
+}
+.vision
+{
+	background-image: linear-gradient(rgba(2,119,189,0.7),rgba(2,119,189,0.7));
+	color: white;
+}
+.vision div div h3
+{
+	margin-bottom: 20px; ; 
+}
+.vision p
+{
+	margin-top: 1.5em;
+	padding: 0em;
+	text-align: justify;
+}
+
+
+.vision .creations-text
+{
+	padding-top:2em;
+    font-family: Verdana, Geneva, sans-serif; 
+    font-size: 1.3em;
+	margin-bottom: 1em;
+	
+}
+.aim
+{	background-image: linear-gradient(rgba(2,45,29,0.7),rgba(2,45,29,0.7));
+	height: auto;
+	color: white;
+}
+
+.col3-txt
+{
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.col3-txt span
+{
+	margin:1em;
+	color: #006064;
+	font-size: 2em;
+}
+
+.col3-txt #First:first-letter
+{
+	line-height: 2em;
+	font-size: 2em;
+	line-height: 0.5;
+	color:rgba(2,119,189,1);
+}
+
+.col3-txt p, .col3-txt ul li
+{
+	font-size: 1.4em;
+	text-align: justify;
+	
+}
+
+.col3-txt h6
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	
+	margin:1em;
+	color:rgba(2,119,189,1);
+}
+
+.button-one
+{
+	border: 1px solid black !important;
+	padding: 10px 30px;
+	color: #101010;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-left: 1.4em;
+	margin-top: 2em;
+	
+	margin-bottom: 80px;
+}
+
+.button-one:hover
+{
+	background:linear-gradient(rgba(2,119,189,1),rgba(2,119,189,1));
+	color: white;
+	border: 1px solid transparent !important;
+	transition: all 0.3s ease-in;
+	text-decoration: none;
+}
+.solution
+{
+	padding-bottom: 3.5em;
+}
+
+
+.solution-button span
+{
+	margin-right: 10px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.solution-sub-heading
+{
+	margin-top: 2em;
+	color: #d9af4f;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+.dimmer-img
+{	
+	display:block;
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+	height: 60vh;
+	margin-left: 0px;
+	padding-left: 0px;
+	transform: scale(0.45),translate(-20%,0%);
+}
+
+.advantages
+{
+	padding: 1.5em;
+	margin: 0 2em;
+	background-image:  linear-gradient(rgba(0,60,64,0.8),rgba(0,60,64,0.8));
+}
+.advantages p
+{
+	color: white;
+	text-align: justify;
+}
+
+#article{
+	padding: 2em;
+	
+}
+.font
+{
+font-family: 'Arima Madurai';
+
+}
+

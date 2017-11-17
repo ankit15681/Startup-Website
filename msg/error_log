@@ -1,0 +1,95 @@
+[03-Oct-2017 07:59:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/shaastra/public_html/ankit/connection.php on line 8
+[03-Oct-2017 08:00:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shaastra/public_html/ankit/index.php on line 23
+[03-Oct-2017 08:00:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shaastra/public_html/ankit/index.php on line 23
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:02:31 UTC] PHP Notice:  Undefined index: username in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:33:42 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/shaastra/public_html/ankit/index.php on line 33
+[03-Oct-2017 08:33:55 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/shaastra/public_html/ankit/index.php on line 33
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:35:10 UTC] PHP Warning:  A non-numeric value encountered in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:38:20 UTC] PHP Notice:  Use of undefined constant msgtime - assumed 'msgtime' in /home/shaastra/public_html/ankit/index.php on line 22
+[03-Oct-2017 08:38:20 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (msgtime) at position 0 (m): The timezone could not be found in the database in /home/shaastra/public_html/ankit/index.php:24
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(24): DateTime->__construct('msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 24
+[03-Oct-2017 08:38:25 UTC] PHP Notice:  Use of undefined constant msgtime - assumed 'msgtime' in /home/shaastra/public_html/ankit/index.php on line 22
+[03-Oct-2017 08:38:25 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (msgtime) at position 0 (m): The timezone could not be found in the database in /home/shaastra/public_html/ankit/index.php:24
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(24): DateTime->__construct('msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 24
+[03-Oct-2017 08:48:12 UTC] PHP Notice:  Use of undefined constant msgtime - assumed 'msgtime' in /home/shaastra/public_html/ankit/index.php on line 22
+[03-Oct-2017 08:48:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (msgtime) at position 0 (m): The timezone could not be found in the database in /home/shaastra/public_html/ankit/index.php:24
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(24): DateTime->__construct('msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 24
+[03-Oct-2017 08:58:35 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string ($msgtime) at position 0 ($): Unexpected character in /home/shaastra/public_html/ankit/index.php:9
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(9): DateTime->__construct('$msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 9
+[03-Oct-2017 08:58:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string ($msgtime) at position 0 ($): Unexpected character in /home/shaastra/public_html/ankit/index.php:9
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(9): DateTime->__construct('$msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 9
+[03-Oct-2017 08:58:51 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string ($msgtime) at position 0 ($): Unexpected character in /home/shaastra/public_html/ankit/index.php:9
+Stack trace:
+#0 /home/shaastra/public_html/ankit/index.php(9): DateTime->__construct('$msgtime', Object(DateTimeZone))
+#1 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 9
+[03-Oct-2017 08:58:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 8
+[03-Oct-2017 08:59:44 UTC] PHP Notice:  Undefined variable: dateFrom in /home/shaastra/public_html/ankit/index.php on line 8
+[03-Oct-2017 08:59:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/shaastra/public_html/ankit/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 8
+[03-Oct-2017 08:59:48 UTC] PHP Notice:  Undefined variable: dateFrom in /home/shaastra/public_html/ankit/index.php on line 8
+[03-Oct-2017 08:59:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home/shaastra/public_html/ankit/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shaastra/public_html/ankit/index.php on line 8
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:56 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 08:59:58 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:00 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32
+[03-Oct-2017 09:00:03 UTC] PHP Notice:  Undefined variable: msgtime in /home/shaastra/public_html/ankit/index.php on line 32

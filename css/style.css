@@ -1,0 +1,279 @@
+section
+{	
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding: 0.5em;
+	height: auto;
+	margin:0px;
+	padding-bottom: 2.5em;
+}
+
+/* Navbar*/
+.navbar
+{
+	background-color: transparent;
+	border-radius: 0;
+}
+
+.navbar .container
+{
+	border-bottom: 1px solid #fff !important;
+}
+
+.navbar .container:hover
+{
+	border-bottom: 1px solid transparent !important;
+}
+
+.navbar:hover
+{
+	background-color: rgba(27,27,27,1);
+	transition: all ease-in 0.5s;
+}
+.opaque{
+	background-color: rgba(27,27,27,1);
+	border-bottom: hidden;
+	transition: all ease-in 0.5s;
+}
+
+.navbar-nav li
+{
+	border-top:2px solid transparent !important;
+}
+
+.navbar-nav li:visited
+{
+	border-top:1px solid black !important;
+	transition: all ease-in 0.2s;
+	background-color: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+}
+{
+	border-top:2px solid transparent !important;
+}
+.navbar-nav li:hover
+{
+	border-top:1px solid black !important;
+	transition: all ease-in 0.2s;
+	background-color: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+}
+
+.navbar-nav li a
+{
+	color: #fff;
+	line-height: 3em;
+	
+}
+
+.navbar-nav li a:hover 
+{
+	color: black;
+	transition: all ease-in 0.3s;	
+}
+
+.navbar-brand 
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin-top: 13px;
+	
+}
+
+.navbar-brand:hover
+{
+	color: white;
+	transition: all ease-in 0.3s;
+}
+
+.icon-bar
+{
+	background-color: white;
+}
+.dropdown-menu
+{
+	background-color: rgba(0,0,0,0.7);;
+}
+.header
+{	
+	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(..//img/hero.jpg);
+	color: white;
+
+}
+.header .header-para
+{
+	text-align: justify;
+}
+.btn
+{
+	border: 1px solid white !important;
+	padding: 10px 30px;
+	margin: 20px;
+}
+.header .btn
+{
+	color: white;
+	border-radius: 5%;	
+	margin-bottom: 7em;
+}
+.header .btn:hover
+{
+	/*text-decoration: bold;
+	color: black;*/
+	transition: 0.5s;
+	background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,.5));
+}
+.logo-img
+{
+	margin: 100px;
+	margin-top: 210px;
+	transform: scale(5);
+	color: white;
+}
+
+.testimonials
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('..//img/hero.jpg');
+	padding-top: 80px;
+	padding-bottom: 60px;
+	color: white;
+}
+.testimonials p
+{
+	margin-top: 40px;
+	color: white;
+	line-height: 25px;
+	text-align: justify; 
+}
+.testimonials cite img
+{
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	margin-right: 10px;
+}
+.testimonial-quote
+{
+	font-family: 'Questrial', 'sans-serif';
+	font-size: 1em;
+	line-height: 1em;
+}
+footer {
+   
+   bottom:0;
+   width:100%;
+   padding: 1em;    /* Height of the footer */
+   background:#000000;
+}
+footer .social-buttons
+{
+	color:#fff;
+	font-size: 1.5em;
+	padding: 1em;
+	margin-top: 1em;
+	vertical-align: middle;
+    	
+    	
+
+}
+footer .social-buttons
+{
+	color:#757575;
+	font-size: 1.2em;
+	transition: all ease-in 0.3s;
+	
+}
+
+.copyright
+{
+	color:#fff;
+	font-size: 0.5em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	vertical-align: middle;
+	float: left;
+}
+
+.contact-form
+{
+	background-image:  linear-gradient(rgba(0,60,64,0.8),rgba(0,60,64,0.8));
+}
+.contact-info-input{
+	color: white;
+	font-size: 1em;
+}
+.contact-info-input h6
+{
+	font-size: 1em;
+	font-style: bold;
+	list-style-type: none;
+	margin:1em;
+}
+.contact-info-input legend
+{
+	color: white;
+}
+.contact-info-input button
+{
+	padding: 0.2em;
+	margin: 0.1em;
+	color: #101010;
+}
+
+
+input[type=text],input[type=email],input[type=tel], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #333333;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: transparent;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white !important;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #adafb2;
+}
+iframe{
+	width: 90%;
+	margin-top:1em;
+	
+}
+#back-to-top{
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	margin: 50px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1.5px solid white !important;
+	padding-top:8px;
+	position: fixed;
+	right:3%;
+	font-size: 1.5em;
+	bottom: 3%;
+	z-index: 2;
+	color: white;
+	background-color: #333333;
+
+}
+
+.modal iframe{
+	padding: 0;
+	margin: 0;
+	
+}
